@@ -20,3 +20,8 @@ document.getElementById("colorBtn").addEventListener("click", () => {
 
     document.body.style.background = random;
 });
+
+document.getElementById("resetBtn").addEventListener("click",()=>{
+    count=0;
+    document.getElementById("count").innerText=Counter: ${count};
+});
