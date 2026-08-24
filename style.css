@@ -18,3 +18,8 @@ button{
 h1{
     color:#333;
 }
+
+.dark{
+    background:#222;
+    color:white;
+}

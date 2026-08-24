@@ -20,3 +20,7 @@ document.getElementById("colorBtn").addEventListener("click", () => {
 
     document.body.style.background = random;
 });
+
+const body = document.body;
+
+body.classList.toggle("dark");
